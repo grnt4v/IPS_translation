@@ -29,7 +29,7 @@
 
     // transaction view
     "tx_title": "Détails de Transaction",
-    "tx_block_hash": "Block Haché",
+    "tx_block_hash": "Haché de bloc",
     "tx_recipients": "Destinataires",
     "tx_contributors": "Input Addresses",
     "tx_hash": "Haché",
