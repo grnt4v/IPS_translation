@@ -1,0 +1,166 @@
+/*
+  This file must be valid JSON. But comments are allowed
+
+  Please edit en.json, not en.json.template
+*/
+{
+    // menu items
+    "menu_explorer": "Explorateur",
+    "menu_api": "API",
+    "menu_markets": "Marchés",
+    "menu_richlist": "Top 100",
+    "menu_reward": "Récompense",
+    "menu_movement": "Mouvement",
+    "menu_node": "Nœuds",
+    "menu_network": "Réseau",
+    "menu_masternodes": "Masternodes",
+
+    // explorer view
+    "ex_title": "Explorateur de blocs",
+    "ex_search_title": "Recherche",
+    "ex_search_button": "Recherche",
+    "ex_search_message": "Saisissez un numéro de bloc, un haché de bloc, un haché de transaction ou une adresse.",
+    "ex_error": "Erreur!",
+    "ex_search_error": "La recherche n'a donné aucun résultat pour : ",
+    "ex_latest_transactions": "Dernières Transactions",
+    "ex_summary": "Résumé de bloc",
+    "ex_supply": "Coin Supply",
+    "ex_block": "Bloc",
+
+    // transaction view
+    "tx_title": "Détails de Transaction",
+    "tx_block_hash": "Block Haché",
+    "tx_recipients": "Destinataires",
+    "tx_contributors": "Input Addresses",
+    "tx_hash": "Haché",
+    "tx_address": "Addresse",
+    "tx_nonstandard": "NONSTANDARD TX",
+
+    // block view
+    "block_previous": "Précédent",
+    "block_next": "Suivant",
+    "block_title": "Détails du Bloc",
+    "block_genesis": "GENESIS",
+
+    // global
+    "difficulty": "Difficulté",
+    "masternodecount": "Master Nodes",
+    "network": "Réseau",
+    "height": "Height",
+    "timestamp": "Timestamp",
+    "size": "Taille",
+    "transactions": "Transactions",
+    "total_sent": "Total Envoyé",
+    "total_received": "Total Reçu",
+    "confirmations": "Confirmations",
+    "total": "Total",
+    "bits": "Bits",
+    "nonce": "Nonce",
+    "new_coins": "Nouveaux Coins",
+    "proof_of_stake": "PoS",
+    "initial_index_alert": "L'indexation n'est pas terminée, la fonctionalité restera limitée jusqu'à ce que l'index soit à jour.",
+
+    //address menu
+    "a_menu_showing": "Dernier",
+    "a_menu_txs": "transactions",
+    "a_menu_all": "Tous",
+
+    //richlist
+    "rl_received_coins": "Top 100 - Coins Reçus",
+    "rl_current_balance": "Top 100 - Balance Courante",
+    "rl_received": "Reçu",
+    "rl_balance": "Balance",
+    "rl_wealth": "Distribution de la richesse",
+    "rl_top25": "Top 1-25",
+    "rl_top50": "Top 26-50",
+    "rl_top75": "Top 51-75",
+    "rl_top100": "Top 76-100",
+    "rl_hundredplus": "101+",
+
+    "net_connections": "Connexions",
+    "net_address": "Addresse",
+    "net_protocol": "Protocole",
+    "net_subversion": "Sous-version",
+    "net_country": "Pays",
+    "net_warning": "Ceci est un sous-ensemble du réseau basé sur les portefeuilles qui se sont connectés à ce nœud dans les 24 dernières heures.",
+
+    // api view
+    "api_title": "Documentation de l'API",
+    "api_message": "L'explorateur de blocs offre une API permettant aux utilisateurs et/ou aux applications de retrouver des informations depuis le réseau sans nécessiter l'usage d'un portefeuille local.",
+    "api_calls": "Appels de l'API",
+    "api_getnetworkhashps": "Retourne le taux de calcul actuel du réseau. (hash/s)",
+    "api_getdifficulty": "Retourne la difficulté actuelle.",
+    "api_getconnectioncount": "Retourne combien de nœuds sont connectés à l'explorateur de blocs.",
+    "api_getmasternodelist": "Retourne la liste complète des masternodes.",
+    "api_getmasternodecount": "Retourne le nombre total de masternodes que comporte le réseau.",
+    "api_getmasternodecountonline": "Retourne le nombre de masternodes du réseau qui sont effectivement en ligne.",
+    "api_getvotelist":  "Retourne la liste actuelle de votes.",
+    "api_getblockcount": "Retourne le dernier index de bloc.",
+    "api_getblockhash": "Retourne le haché du blocc à ; index 0 est le bloc de génèse.",
+    "api_getblock": "Retourne des informations sur le bloc dont le haché est passé en paramètre.",
+    "api_getrawtransaction": "Retourne la représentation brute de la transaction dont l'id de transaction est donné. decrypt peut être positionné à 0(faux) ou 1(vrai).",
+    "api_getmaxmoney": "Retourne the maximum possible money supply.",
+    "api_getmaxvote": "Retourne le nombre maximum de vote autorisé pour la phase de vote en cours.",
+    "api_getvote": "Retourne the current block reward vote setting.",
+    "api_getphase": "Retourne la phase de vote en cours ('Mint', 'Limit' ou 'Sustain').",
+    "api_getreward": "Retourne le montant actuel de la récompense de bloc qui a été décidé démocratiquement lors du précédent vote.",
+    "api_getsupply": "Retourne la réserve actuelle de la monnaie.",
+    "api_getnextrewardestimate": "Retourne une estimation de la récompense du prochain bloc basé sur l'état actuel du vote décentralisé.",
+    "api_getnextrewardwhenstr": "Retourne une chaîne décrivant le temps restant jusqu'au prochain décompte des votes et le calcul de la prochaine récompense de blocs.",
+
+    // Markets view
+    "mkt_hours": "24 heures",
+    "mkt_view_chart": "Voir un résumé sur 24 heures",
+    "mkt_view_summary": "Voir un tableau sur 24 heures",
+    "mkt_no_chart": "Le tableau de données n'est pas disponible au travers de l'API des marché.",
+    "mkt_high": "Haut",
+    "mkt_low": "Bas",
+    "mkt_volume": "Volume",
+    "mkt_top_bid": "Top Bid",
+    "mkt_top_ask": "Top Ask",
+    "mkt_last": "Dernier Prix",
+    "mkt_yesterday": "Hier",
+    "mkt_change": "Change",
+    "mkt_sell_orders": "Ordres de ventes",
+    "mkt_buy_orders": "Ordres d'achats",
+    "mkt_price": "Prix",
+    "mkt_amount": "Montant",
+    "mkt_total": "Total",
+    "mkt_trade_history": "Historique des échanges",
+    "mkt_type": "Type",
+    "mkt_time_stamp": "Time Stamp",
+
+    // Markets
+    "poloniex": "Poloniex",
+    "bittrex": "Bittrex",
+    "bleutrade": "Bleutrade",
+    "yobit": "Yobit",
+    "empoex": "Empoex",
+    "cryptsy": "Cryptsy",
+    "cryptopia": "Cryptopia",
+    "ccex": "C-Cex",
+    "coinexchange": "CoinExchange",
+    "graviex": "Graviex",
+    "crex": "Crex24",
+
+    // Heavy rewards view
+    "heavy_title": "Information sur les récompenses/votes",
+    "heavy_vote": "Vote",
+    "heavy_cap": "Coin Cap",
+    "heavy_phase": "Phase",
+    "heavy_maxvote": "Max Vote",
+    "heavy_reward": "Récompense",
+    "heavy_current": "Récompense actuelle",
+    "heavy_estnext": "Est. Suivante",
+    "heavy_changein": "Reward change in approximately",
+    "heavy_key": "Key",
+    "heavy_lastxvotes": "20 derniers votes",
+    
+    // Masternodes
+    "mn_status" : "État",
+    "mn_last_seen" : "Vu pour la dernière fois",
+    "mn_last_paid" : "Dernier paiement",
+    "mn_activ" : "Nœuds actifs",
+    "mn_warning" : "Liste de tous les Master Nodes actuellement sur le réseau par ordre de dernière apparition",
+    "mn_rank" : "Classement"
+}
